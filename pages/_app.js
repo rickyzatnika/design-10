@@ -1,5 +1,5 @@
+import "aos/dist/aos.css";
 import "../styles/globals.css";
-
 
 import { useState, useEffect } from "react";
 import { Layout, Loading } from "../components";
