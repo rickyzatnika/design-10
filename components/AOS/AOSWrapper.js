@@ -6,6 +6,8 @@ const AOSWrapper = ({ children }) => {
     useEffect(() => {
         AOS.init({
             once: true,
+            disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+            startEvent: 'DOMContentLoaded',
         });
     }, []);
 
